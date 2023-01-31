@@ -6,12 +6,12 @@
 Summary:	A simple lightweight powerful embeddable programming language
 Summary(pl.UTF-8):	Prosty, lekki ale potężny, osadzalny język programowania
 Name:		lua53
-Version:	5.3.5
-Release:	3
+Version:	5.3.6
+Release:	1
 License:	MIT
 Group:		Development/Languages
 Source0:	http://www.lua.org/ftp/lua-%{version}.tar.gz
-# Source0-md5:	4f4b4f323fd3514a68e0ab3da8ce3455
+# Source0-md5:	83f23dbd5230140a3770d5f54076948d
 Patch0:		%{name}-link.patch
 URL:		http://www.lua.org/
 %{?with_luastatic:BuildRequires:       dietlibc-static}
